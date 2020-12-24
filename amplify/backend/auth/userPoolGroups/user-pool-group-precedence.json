@@ -1,0 +1,18 @@
+[
+  {
+    "groupName": "admins",
+    "precedence": 1
+  },
+  {
+    "groupName": "moderators",
+    "precedence": 2
+  },
+  {
+    "groupName": "users",
+    "precedence": 3
+  },
+  {
+    "groupName": "everyone",
+    "precedence": 4
+  }
+]

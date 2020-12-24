@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "iggycelticsite28189499",
+  "functionName": "iggycelticsite28189499PostConfirmation",
+  "resourceName": "iggycelticsite28189499PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "C:\\Users\\kglad\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "roleName": "iggycelticsite28189499PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "everyone",
+  "enableCors": false
+}
