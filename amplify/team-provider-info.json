@@ -14,6 +14,11 @@
     "categories": {
       "auth": {
         "iggycelticsite28189499": {}
+      },
+      "function": {
+        "iggycelticsite28189499PostConfirmation": {
+          "GROUP": "everyone"
+        }
       }
     }
   }
