@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "iggycelticsite28189499": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
