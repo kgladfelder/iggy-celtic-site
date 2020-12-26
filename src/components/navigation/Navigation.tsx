@@ -1,5 +1,6 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Button, Nav, Navbar } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import { NavLink, useLocation } from 'react-router-dom';
 import './Navigation.scss';
 
@@ -16,6 +17,14 @@ function Navigation(): JSX.Element {
                     <Nav.Link as={NavLink} to="/tracker">Tracker</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
+            <Nav>
+                <LinkContainer to="/log-in">
+                    <Button variant='secondary'>Log In</Button>
+                </LinkContainer>
+                <LinkContainer to="/sign-up">
+                    <Button variant='primary'>Sign Up</Button>
+                </LinkContainer>
+            </Nav>
         </Navbar>
     );
 }
