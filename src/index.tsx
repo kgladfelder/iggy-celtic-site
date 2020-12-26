@@ -1,12 +1,23 @@
+import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Helmet } from 'react-helmet';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.scss';
+import App from './components/app/App';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Helmet>
+      <title>Reading Goals</title>
+      <meta charSet="utf-8" />
+    </Helmet>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
